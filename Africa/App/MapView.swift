@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct MapView: View {
+    
+    //MARK: - PROPERTIES
+    
+    //MARK: - BODY
+    
     var body: some View {
         Text("Map")
     }
