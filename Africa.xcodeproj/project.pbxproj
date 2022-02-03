@@ -44,6 +44,7 @@
 		627D052D27AB7FB300451564 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D052C27AB7FB300451564 /* VideoPlayerView.swift */; };
 		627D053027AB80A600451564 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D052F27AB80A600451564 /* VideoPlayerHelper.swift */; };
 		627D053227AB84EE00451564 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D053127AB84EE00451564 /* LocationModel.swift */; };
+		627D053427AB886500451564 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D053327AB886500451564 /* MapAnnotationView.swift */; };
 		62921C1527AA3582007BFBF1 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62921C1427AA3582007BFBF1 /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		627D052C27AB7FB300451564 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		627D052F27AB80A600451564 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		627D053127AB84EE00451564 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		627D053327AB886500451564 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		62921C1427AA3582007BFBF1 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 				625FCFF427AA409100659F6D /* ExternalWeblinkView.swift */,
 				625FCFF827AA440800659F6D /* VideoListItemView.swift */,
 				627D052C27AB7FB300451564 /* VideoPlayerView.swift */,
+				627D053327AB886500451564 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				627D053027AB80A600451564 /* VideoPlayerHelper.swift in Sources */,
 				625FCFF327AA3E1A00659F6D /* INsetMapView.swift in Sources */,
 				62075BFF27A3A5AA00CF396B /* AfricaApp.swift in Sources */,
+				627D053427AB886500451564 /* MapAnnotationView.swift in Sources */,
 				62075C2E27A3A9A000CF396B /* VideoListView.swift in Sources */,
 				625FCFF727AA43A100659F6D /* VideoModel.swift in Sources */,
 				62075C3227A3A9C400CF396B /* GalleryView.swift in Sources */,
