@@ -43,6 +43,7 @@
 		6261302E27A3B80C004C0863 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261302D27A3B80C004C0863 /* AnimalModel.swift */; };
 		627D052D27AB7FB300451564 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D052C27AB7FB300451564 /* VideoPlayerView.swift */; };
 		627D053027AB80A600451564 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D052F27AB80A600451564 /* VideoPlayerHelper.swift */; };
+		627D053227AB84EE00451564 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D053127AB84EE00451564 /* LocationModel.swift */; };
 		62921C1527AA3582007BFBF1 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62921C1427AA3582007BFBF1 /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		6261302D27A3B80C004C0863 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		627D052C27AB7FB300451564 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		627D052F27AB80A600451564 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		627D053127AB84EE00451564 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		62921C1427AA3582007BFBF1 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,12 +122,12 @@
 			children = (
 				62075C2A27A3A83900CF396B /* Info.plist */,
 				62075C0227A3A5AA00CF396B /* Assets.xcassets */,
+				62075C2B27A3A94E00CF396B /* App */,
 				62075C2127A3A74500CF396B /* Data */,
 				62075C3727A3AC6300CF396B /* Model */,
 				62075C3A27A3ADB300CF396B /* Extension */,
 				627D052E27AB806D00451564 /* Helper */,
 				62075C0C27A3A6FF00CF396B /* Video */,
-				62075C2B27A3A94E00CF396B /* App */,
 				62075C2C27A3A98D00CF396B /* View */,
 				62075C0427A3A5AA00CF396B /* Preview Content */,
 			);
@@ -204,6 +206,7 @@
 				62075C3827A3AC7A00CF396B /* CoverImageModel.swift */,
 				6261302D27A3B80C004C0863 /* AnimalModel.swift */,
 				625FCFF627AA43A100659F6D /* VideoModel.swift */,
+				627D053127AB84EE00451564 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				62075C2E27A3A9A000CF396B /* VideoListView.swift in Sources */,
 				625FCFF727AA43A100659F6D /* VideoModel.swift in Sources */,
 				62075C3227A3A9C400CF396B /* GalleryView.swift in Sources */,
+				627D053227AB84EE00451564 /* LocationModel.swift in Sources */,
 				625FCFEF27AA396C00659F6D /* InsetGalleryView.swift in Sources */,
 				625FCFF927AA440800659F6D /* VideoListItemView.swift in Sources */,
 				62075C3C27A3ADC500CF396B /* CodableBundleExtension.swift in Sources */,
