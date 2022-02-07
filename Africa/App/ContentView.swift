@@ -66,6 +66,10 @@ struct ContentView: View {
                         } //: LOOP
                         .listRowBackground(Color.black)
                         .padding(.top, 20)
+                        
+                        CreditsView()
+                            .modifier(CenterModifier())
+                            .listRowBackground(Color.black)
                     } //: LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
